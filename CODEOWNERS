@@ -15,13 +15,20 @@
 /compiler/typecheck              @simonpj @goldfire
 /compiler/rename                 @simonpj @goldfire
 /compiler/typecheck/TcDeriv*     @RyanGlScott
+/compiler/cmm                    @simonmar
+/compiler/codeGen                @simonmar
 /compiler/nativeGen              @simonmar @bgamari @AndreasK
 /compiler/simplCore/CallArity.hs @nomeata
 /compiler/utils/UnVarGraph.hs    @nomeata
 /compiler/simplCore/Exitify.hs   @nomeata
 /compiler/simplStg/StgCse.hs     @nomeata
 /compiler/cmm/CmmSwitch.hs       @nomeata
+/compiler/ghci                   @simonmar
 
 # Core libraries
 /libraries/base                  @hvr
+/libraries/ghci                  @simonmar
 /libraries/template-haskell      @goldfire
+
+# Tools
+/utils/iserv                     @simonmar
